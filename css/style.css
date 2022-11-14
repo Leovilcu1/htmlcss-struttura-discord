@@ -1,0 +1,67 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height:50px;
+    display: flex;
+    align-items: center;
+}
+
+.container-flex{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    width: 50%;
+    text-align: center;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 25%;
+}
+
+.login{
+    width: 25%;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+.debug .nav,.login,.logo{
+    border: 1px dashed red;
+    padding: 5px;
+}
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug .container{
+    background-color: rgb(234, 171, 23);
+}
